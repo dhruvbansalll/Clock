@@ -12,11 +12,13 @@
 }
 
 .clockContainer{
-    width: 90vw;
+    width: 46vw;
     height: 100vh;
     background: url(../assets/clock.png) no-repeat ;
     background-size: contain;
-    position: relative;
+    position: absolute;
+    top: 25.5%;
+    left: 49.3%;
 }
 
 .hourHand{
