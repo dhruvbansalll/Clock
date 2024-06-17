@@ -12,7 +12,7 @@
 }
 
 .clockContainer{
-    width: 46vw;
+    width: 90vw;
     height: 100vh;
     background: url(../assets/clock.png) no-repeat ;
     background-size: contain;
