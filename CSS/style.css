@@ -4,7 +4,7 @@
 }
 
 .body{
-    width: 46vw;
+    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@
     width: 1%;
     height: 29.6%;
     background-color: black;
-    position: fixed;
+    position: absolute;
     border-radius: 20px;
     top: 19.8%;
     left: 49.4%;
