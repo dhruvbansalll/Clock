@@ -25,8 +25,8 @@
     background-color: black;
     position: absolute;
     border-radius: 20px;
-    top: 0;
-    left: 0;
+    top: 25.5%;
+    left: 49.3%;
     transform-origin: bottom;
 }
 .minuteHand{
@@ -35,8 +35,8 @@
     background-color: black;
     position: absolute;
     border-radius: 20px;
-    top: 0;
-    left: 0;
+    top: 19.8%;
+    left: 49.4%;
     transform-origin: bottom;
 }
 .secondHand{
@@ -45,7 +45,7 @@
     background-color: black;
     position: absolute;
     border-radius: 20px;
-    top: 0;
-    left: 0;
+    top: 15.4%;
+    left: 49.5%;
     transform-origin: bottom;   
 }
