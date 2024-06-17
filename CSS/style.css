@@ -16,9 +16,7 @@
     height: 100vh;
     background: url(../assets/clock.png) no-repeat ;
     background-size: contain;
-    position: absolute;
-    top: 49.3%;
-    left: 49.3%;
+    position: relative;
 }
 
 .hourHand{
