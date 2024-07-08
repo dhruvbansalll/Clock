@@ -1,18 +1,13 @@
-let hourHand = document.querySelector('.hourHand');
-let minuteHand = document.querySelector('.minuteHand');
-let secondHand = document.querySelector('.secondHand');
-
 setInterval(() => {
-    let d = new Date();
-    htime = d.getHours()
-    mtime = d.getMinutes()
-    stime = d.getSeconds();
-
-    hrotation = 30*htime+mtime/2+stime/120;
-    mrotation = 6*mtime;
-    srotation = 6*stime;
-
-    hourHand.style.transform = `rotate(${hrotation}deg)`;
-    minuteHand.style.transform = `rotate(${mrotation}deg)`;
-    secondHand.style.transform = `rotate(${srotation}deg)`;
-}, 1000);   
+    d = new Date(); //object of date()
+    hr = d.getHours();
+    min = d.getMinutes();
+    sec = d.getSeconds();
+    hr_rotation = 30 * hr + min / 2; //converting current time
+    min_rotation = 6 * min;
+    sec_rotation = 6 * sec;
+    
+    hour.style.transform = `rotate(${hr_rotation}deg)`;
+    minute.style.transform = `rotate(${min_rotation}deg)`;
+    second.style.transform = `rotate(${sec_rotation}deg)`;
+    }, 1000);
