@@ -4,7 +4,7 @@
     height: 40vw;
     /*to make the height and width responsive*/
     width: 40vw;
-    backgroungd: url(../assets/clock.png) no-repeat;
+    background: url(../assets/clock.png) no-repeat;
     /*setting our background image*/
     background-size: 100%;
     }
